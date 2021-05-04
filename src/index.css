@@ -5,9 +5,78 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f3f3f3;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.container {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.legend {
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sort__group {
+  display: flex;
+  justify-content: space-between;
+  width: fit-content;
+  width: -moz-fit-content;
+  margin: 0 auto;
+}
+
+.sort__form {
+  margin-right: 10px;
+}
+
+.ct__car__image img {
+  width: 300px;
+}
+
+.ct__car__status {
+  background-color: #0072ff69;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.ct__car__status p {
+  padding: 5px 20px;
+}
+
+.ct__car {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.cars {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin-top: 40px;
+}
+
+.ct__car__details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ct__car__attributes {
+  font-size: 12px;
 }
